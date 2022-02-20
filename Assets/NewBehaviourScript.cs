@@ -38,5 +38,10 @@ public class NewBehaviourScript : MonoBehaviour
         {
             musicSource.Stop();
         }
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
